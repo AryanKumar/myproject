@@ -1,0 +1,172 @@
+body {
+	margin-bottom: 50px;
+}
+
+.dropbtn {
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	border: none;
+	outline: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.dropbtn img {
+	height: 35px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content ul {
+	padding: 0px;
+}
+
+.dropdown-content a {
+	color: white;
+	margin: 0px auto;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+#left-dropdown:hover .dropdown-content {
+	display: block
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+#right-dropdown img {
+	height: 35px;
+}
+
+.right-content {
+	width: 200px;
+	text-align: left;
+	height: 100px;
+	color: white;
+	background-color: #f1f1f1;
+	padding: 10px;
+	position: absolute;
+	right: 0px;
+	z-index: 1;
+	display: none;
+}
+
+#right {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+#right-dropdown:hover {
+	cursor: pointer;
+}
+
+#right-dropdown:hover .right-content {
+	display: block;
+	cursor: context-menu;
+}
+
+#right h4 {
+	margin-top: 10px;
+}
+
+#right p {
+	margin: 0px;
+}
+
+#tabs {
+	margin-top: 1%;
+}
+
+.col-12 {
+	padding: 0px;
+}
+
+.col-sm-6 {
+	padding: 0px;
+}
+
+.col-md-4 {
+	padding: 0px;
+}
+
+.box {
+	background-color: #efefef;
+	margin: 5px;
+	text-align: center;
+	height: 98%;
+	padding-top: 45px;
+}
+
+.box h5 {
+	margin-top: 20px;
+}
+
+.box p {
+	font-size: 15px;
+}
+
+#center h5 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#center p {
+	margin-top: 0px;
+}
+
+#center {
+	text-align: center;
+	padding-top: 45px;
+}
+
+/*Desiging hovering thing*/
+
+h4 {
+	margin-bottom: 0px;
+}
+
+a {
+	color: black;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	background-color: white;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.heading{
+    padding:20px;
+}
+.Aorder , .viewrpt {
+    width: 70%;
+    height: 105px;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 34px;
+}
+.logout{
+    color:#E2FFFF;
+}
+.logout:hover{
+    color:red;
+}
